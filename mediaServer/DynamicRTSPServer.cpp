@@ -131,7 +131,7 @@ static ServerMediaSession* createNewSMS(UsageEnvironment& env,
     // Assumed to be an AC-3 Audio file:
     NEW_SMS("AC-3 Audio");
     sms->addSubsession(AC3AudioFileServerMediaSubsession::createNew(env, fileName, reuseSource));
-  } else if (strcmp(extension, ".m4e") == 0) {
+  } else if (strcmp(extension, ".m4e") == 0 || strcmp(extension, ".m4v") == 0) {
     // Assumed to be a MPEG-4 Video Elementary Stream file:
     NEW_SMS("MPEG-4 Video");
     sms->addSubsession(MPEG4VideoFileServerMediaSubsession::createNew(env, fileName, reuseSource));

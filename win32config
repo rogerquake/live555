@@ -20,7 +20,7 @@ CONSOLE_UI_OPTS =		$(conlflags) $(conlibsdll)
 CPU=i386
 
 TOOLS32	=		C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC
-COMPILE_OPTS =		-DFD_SETSIZE=512 $(INCLUDES) $(cdebug) $(cflags) $(cvarsdll) -I. -I"$(TOOLS32)\include"
+COMPILE_OPTS =		-DFD_SETSIZE=1024 $(INCLUDES) $(cdebug) $(cflags) $(cvarsdll) -I. -I"$(TOOLS32)\include"
 C =			c
 C_COMPILER =		"$(TOOLS32)\bin\cl"
 C_FLAGS =		$(COMPILE_OPTS)

@@ -29,6 +29,10 @@ cd ..\mediaServer
 del *.obj *.lib
 nmake /B -f mediaServer.mak
 
+cd ..\testProgs
+del *.obj *.lib
+nmake /B -f testProgs.mak
+
 pause
 
 :::::::::::::::::::::::::::::::::::::

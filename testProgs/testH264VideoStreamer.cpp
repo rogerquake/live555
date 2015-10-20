@@ -36,6 +36,15 @@ RTPSink* videoSink;
 void play(); // forward
 
 int main(int argc, char** argv) {
+  
+  if (argc > 1) {
+    inputFileName = argv[1];
+  }
+  else {
+    printf("Specify the .h264 file to stream\n", argv[1]);
+	return 1;
+  }
+  
   // Begin by setting up our usage environment:
   TaskScheduler* scheduler = BasicTaskScheduler::createNew();
   env = BasicUsageEnvironment::createNew(*scheduler);
@@ -60,7 +69,7 @@ int main(int argc, char** argv) {
   rtcpGroupsock.multicastSendOnly(); // we're a SSM source
 
   // Create a 'H264 Video RTP' sink from the RTP 'groupsock':
-  OutPacketBuffer::maxSize = 100000;
+  OutPacketBuffer::maxSize = 1000000;
   videoSink = H264VideoRTPSink::createNew(*env, &rtpGroupsock, 96);
 
   // Create (and start) a 'RTCP instance' for this RTP sink:
