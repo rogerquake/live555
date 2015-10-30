@@ -41,7 +41,7 @@ int main(int argc, char** argv) {
     inputFileName = argv[1];
   }
   else {
-    printf("Specify the .h264 file to stream\n", argv[1]);
+    printf("Specify the .h264 file to stream\n");
 	return 1;
   }
   
