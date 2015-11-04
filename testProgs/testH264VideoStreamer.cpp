@@ -37,12 +37,16 @@ void play(); // forward
 
 int main(int argc, char** argv) {
   
+  int port = 8554;
   if (argc > 1) {
     inputFileName = argv[1];
   }
   else {
-    printf("Specify the .h264 file to stream\n");
-	return 1;
+    printf("Specify the .h264 file to stream optionally followed by the port number\n");
+    return 1;
+  }
+  if (argc > 2) {
+    port = atoi(argv[2]);
   }
   
   // Begin by setting up our usage environment:
@@ -85,7 +89,7 @@ int main(int argc, char** argv) {
 			    True /* we're a SSM source */);
   // Note: This starts RTCP running automatically
 
-  RTSPServer* rtspServer = RTSPServer::createNew(*env, 8554);
+  RTSPServer* rtspServer = RTSPServer::createNew(*env, port);
   if (rtspServer == NULL) {
     *env << "Failed to create RTSP server: " << env->getResultMsg() << "\n";
     exit(1);
