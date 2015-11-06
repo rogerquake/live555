@@ -52,7 +52,7 @@ int main(int argc, char** argv) {
     exit(1);
   }
 
-  *env << "LIVE555 Media Server\n";
+  *env << "LIVE555 Media Server (modified by Datapath)\n";
   *env << "\tversion " << MEDIA_SERVER_VERSION_STRING
        << " (LIVE555 Streaming Media library version "
        << LIVEMEDIA_LIBRARY_VERSION_STRING << ").\n";
@@ -83,11 +83,11 @@ int main(int argc, char** argv) {
   // Try first with the default HTTP port (80), and then with the alternative HTTP
   // port numbers (8000 and 8080).
 
-  if (rtspServer->setUpTunnelingOverHTTP(80) || rtspServer->setUpTunnelingOverHTTP(8000) || rtspServer->setUpTunnelingOverHTTP(8080)) {
+  /*if (rtspServer->setUpTunnelingOverHTTP(80) || rtspServer->setUpTunnelingOverHTTP(8000) || rtspServer->setUpTunnelingOverHTTP(8080)) {
     *env << "(We use port " << rtspServer->httpServerPortNum() << " for optional RTSP-over-HTTP tunneling, or for HTTP live streaming (for indexed Transport Stream files only).)\n";
   } else {
     *env << "(RTSP-over-HTTP tunneling is not available.)\n";
-  }
+  }*/
 
   env->taskScheduler().doEventLoop(); // does not return
 
