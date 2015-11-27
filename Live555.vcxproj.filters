@@ -1,0 +1,1260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="basicusageenvironment\BasicHashTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basicusageenvironment\BasicTaskScheduler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basicusageenvironment\BasicTaskScheduler0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basicusageenvironment\BasicUsageEnvironment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basicusageenvironment\BasicUsageEnvironment0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basicusageenvironment\DelayQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="groupsock\GroupEId.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="groupsock\Groupsock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="groupsock\GroupsockHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="groupsock\IOHandlers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="groupsock\NetAddress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="groupsock\NetInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="groupsock\inet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\AC3AudioFileServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\AC3AudioRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\AC3AudioRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\AC3AudioStreamFramer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\ADTSAudioFileServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\ADTSAudioFileSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\AMRAudioFileServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\AMRAudioFileSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\AMRAudioFileSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\AMRAudioRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\AMRAudioRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\AMRAudioSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\AudioInputDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\AudioRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\AVIFileSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\Base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\BasicUDPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\BasicUDPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\BitVector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\ByteStreamFileSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\ByteStreamMemoryBufferSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\ByteStreamMultiFileSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\DeviceSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\DigestAuthentication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\DVVideoFileServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\DVVideoRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\DVVideoRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\DVVideoStreamFramer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\EBMLNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\FileServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\FileSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\FramedFileSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\FramedFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\FramedSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\GenericMediaServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\GSMAudioRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H261VideoRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H263plusVideoFileServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H263plusVideoRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H263plusVideoRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H263plusVideoStreamFramer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H263plusVideoStreamParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H264or5VideoFileSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H264or5VideoRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H264or5VideoStreamDiscreteFramer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H264or5VideoStreamFramer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H264VideoFileServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H264VideoFileSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H264VideoRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H264VideoRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H264VideoStreamDiscreteFramer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H264VideoStreamFramer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H265VideoFileServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H265VideoFileSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H265VideoRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H265VideoRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H265VideoStreamDiscreteFramer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\H265VideoStreamFramer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\InputFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\JPEGVideoRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\JPEGVideoRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\JPEGVideoSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\Locale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MatroskaDemuxedTrack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MatroskaFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MatroskaFileParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MatroskaFileServerDemux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MatroskaFileServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\Media.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MediaSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MediaSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MediaSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MP3ADU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MP3ADUdescriptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MP3ADUinterleaving.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MP3ADURTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MP3ADURTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MP3ADUTranscoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MP3AudioFileServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MP3AudioMatroskaFileServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MP3FileSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MP3Internals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MP3InternalsHuffman.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MP3InternalsHuffmanTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MP3StreamState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MP3Transcoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG1or2AudioRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG1or2AudioRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG1or2AudioStreamFramer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG1or2Demux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG1or2DemuxedElementaryStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG1or2DemuxedServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG1or2FileServerDemux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG1or2VideoFileServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG1or2VideoRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG1or2VideoRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG1or2VideoStreamDiscreteFramer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG1or2VideoStreamFramer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG2IndexFromTransportStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG2TransportFileServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG2TransportStreamFramer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG2TransportStreamFromESSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG2TransportStreamFromPESSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG2TransportStreamIndexFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG2TransportStreamMultiplexor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG2TransportStreamTrickModeFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG2TransportUDPServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG4ESVideoRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG4ESVideoRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG4GenericRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG4GenericRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG4LATMAudioRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG4LATMAudioRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG4VideoFileServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG4VideoStreamDiscreteFramer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEG4VideoStreamFramer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEGVideoStreamFramer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MPEGVideoStreamParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MultiFramedRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\MultiFramedRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\OggDemuxedTrack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\OggFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\OggFileParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\OggFileServerDemux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\OggFileServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\OggFileSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\OnDemandServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\ourMD5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\OutputFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\PassiveServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\ProxyServerMediaSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\QCELPAudioRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\QuickTimeFileSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\QuickTimeGenericRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\RTCP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\RTPInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\RTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\RTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\RTSPClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\RTSPCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\RTSPRegisterSender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\RTSPServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\RTSPServerSupportingHTTPStreaming.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\ServerMediaSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\SimpleRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\SimpleRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\SIPClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\StreamParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\StreamReplicator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\T140TextRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\TCPStreamSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\TextRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\TheoraVideoRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\TheoraVideoRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\uLawAudioFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\VideoRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\VorbisAudioRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\VorbisAudioRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\VP8VideoRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\VP8VideoRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\VP9VideoRTPSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\VP9VideoRTPSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\WAVAudioFileServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\WAVAudioFileSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="livemedia\rtcp_from_spec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mediaserver\DynamicRTSPServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mediaserver\live555MediaServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="proxyserver\live555ProxyServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\MPEG2TransportStreamIndexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\openRTSP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\playCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\playSIP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\registerRTSPStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\sapWatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testAMRAudioStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testDVVideoStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testGSMStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testH264VideoStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testH264VideoToTransportStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testH265VideoStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testH265VideoToTransportStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testMKVStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testMP3Receiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testMP3Streamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testMPEG1or2AudioVideoStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testMPEG1or2ProgramToTransportStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testMPEG1or2Splitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testMPEG1or2VideoReceiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testMPEG1or2VideoStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testMPEG2TransportReceiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testMPEG2TransportStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testMPEG2TransportStreamTrickPlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testMPEG4VideoStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testOggStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testOnDemandRTSPServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testRelay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testReplicator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testRTSPClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\testWAVAudioStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprogs\vobStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="usageenvironment\HashTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="usageenvironment\strDup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="usageenvironment\UsageEnvironment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="windowsaudioinputdevice\showAudioInputPorts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="windowsaudioinputdevice\WindowsAudioInputDevice_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="windowsaudioinputdevice\WindowsAudioInputDevice_mixer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="windowsaudioinputdevice\WindowsAudioInputDevice_noMixer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basicusageenvironment\include\BasicHashTable.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="basicusageenvironment\include\BasicUsageEnvironment.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="basicusageenvironment\include\BasicUsageEnvironment0.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="basicusageenvironment\include\BasicUsageEnvironment_version.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="basicusageenvironment\include\DelayQueue.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="basicusageenvironment\include\HandlerSet.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="groupsock\include\NetCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="groupsock\include\GroupEId.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="groupsock\include\Groupsock.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="groupsock\include\GroupsockHelper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="groupsock\include\groupsock_version.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="groupsock\include\IOHandlers.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="groupsock\include\NetAddress.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="groupsock\include\NetInterface.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="groupsock\include\TunnelEncaps.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\rtcp_from_spec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\EBMLNumber.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\H263plusVideoStreamParser.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\MatroskaDemuxedTrack.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\MatroskaFileParser.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\MatroskaFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\MP3ADUdescriptor.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\MP3AudioMatroskaFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\MP3Internals.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\MP3InternalsHuffman.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\MP3StreamState.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\MPEGVideoStreamParser.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\OggDemuxedTrack.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\OggFileParser.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\OggFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\StreamParser.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\AC3AudioFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\AC3AudioRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\AC3AudioRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\AC3AudioStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\ADTSAudioFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\ADTSAudioFileSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\AMRAudioFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\AMRAudioFileSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\AMRAudioFileSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\AMRAudioRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\AMRAudioRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\AMRAudioSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\AudioInputDevice.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\AudioRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\AVIFileSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\Base64.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\BasicUDPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\BasicUDPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\BitVector.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\ByteStreamFileSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\ByteStreamMemoryBufferSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\ByteStreamMultiFileSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\DeviceSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\DigestAuthentication.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\DVVideoFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\DVVideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\DVVideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\DVVideoStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\FileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\FileSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\FramedFileSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\FramedFilter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\FramedSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\GenericMediaServer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\GSMAudioRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H261VideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H263plusVideoFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H263plusVideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H263plusVideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H263plusVideoStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H264or5VideoFileSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H264or5VideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H264or5VideoStreamDiscreteFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H264or5VideoStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H264VideoFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H264VideoFileSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H264VideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H264VideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H264VideoStreamDiscreteFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H264VideoStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H265VideoFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H265VideoFileSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H265VideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H265VideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H265VideoStreamDiscreteFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\H265VideoStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\InputFile.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\JPEGVideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\JPEGVideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\JPEGVideoSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\liveMedia.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\liveMedia_version.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\Locale.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MatroskaFile.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MatroskaFileServerDemux.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\Media.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MediaSession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MediaSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MediaSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MediaTranscodingTable.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MP3ADU.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MP3ADUinterleaving.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MP3ADURTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MP3ADURTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MP3ADUTranscoder.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MP3AudioFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MP3FileSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MP3Transcoder.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG1or2AudioRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG1or2AudioRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG1or2AudioStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG1or2Demux.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG1or2DemuxedElementaryStream.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG1or2DemuxedServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG1or2FileServerDemux.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG1or2VideoFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG1or2VideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG1or2VideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG1or2VideoStreamDiscreteFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG1or2VideoStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG2IndexFromTransportStream.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG2TransportFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG2TransportStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG2TransportStreamFromESSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG2TransportStreamFromPESSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG2TransportStreamIndexFile.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG2TransportStreamMultiplexor.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG2TransportStreamTrickModeFilter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG2TransportUDPServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG4ESVideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG4ESVideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG4GenericRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG4GenericRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG4LATMAudioRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG4LATMAudioRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG4VideoFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG4VideoStreamDiscreteFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEG4VideoStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MPEGVideoStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MultiFramedRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\MultiFramedRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\OggFile.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\OggFileServerDemux.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\OggFileSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\OnDemandServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\ourMD5.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\OutputFile.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\PassiveServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\ProxyServerMediaSession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\QCELPAudioRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\QuickTimeFileSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\QuickTimeGenericRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\RTCP.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\RTPInterface.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\RTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\RTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\RTSPClient.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\RTSPCommon.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\RTSPRegisterSender.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\RTSPServer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\RTSPServerSupportingHTTPStreaming.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\ServerMediaSession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\SimpleRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\SimpleRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\SIPClient.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\StreamReplicator.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\T140TextRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\TCPStreamSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\TextRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\TheoraVideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\TheoraVideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\uLawAudioFilter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\VideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\VorbisAudioRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\VorbisAudioRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\VP8VideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\VP8VideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\VP9VideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\VP9VideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\WAVAudioFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="livemedia\include\WAVAudioFileSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mediaserver\DynamicRTSPServer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mediaserver\version.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testprogs\playCommon.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usageenvironment\include\Boolean.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usageenvironment\include\HashTable.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usageenvironment\include\strDup.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usageenvironment\include\UsageEnvironment.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usageenvironment\include\UsageEnvironment_version.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="windowsaudioinputdevice\WindowsAudioInputDevice_common.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="windowsaudioinputdevice\WindowsAudioInputDevice_mixer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="windowsaudioinputdevice\WindowsAudioInputDevice_noMixer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
