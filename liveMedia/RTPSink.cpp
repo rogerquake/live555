@@ -64,7 +64,6 @@ RTPSink::RTPSink(UsageEnvironment& env,
   fTimestampBase = our_random32();
 
   fTransmissionStatsDB = new RTPTransmissionStatsDB(*this);
-  makeSocketBlocking(rtpGS->socketNum(), 10);
 }
 
 RTPSink::~RTPSink() {
